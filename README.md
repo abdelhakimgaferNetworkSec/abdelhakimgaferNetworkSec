@@ -238,7 +238,7 @@ from a tool list.
 
 <img src="profile-repo/assets/divider.svg" width="100%"/>
 
-## 🎯 2026 Roadmap
+##  2026 Roadmap
 
 <table align="center">
 <tr valign="top">
