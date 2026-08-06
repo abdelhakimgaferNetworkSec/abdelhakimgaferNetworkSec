@@ -23,7 +23,7 @@
 </div>
 
 <br/>
-<img src="assets/divider.svg" width="100%"/>
+<img src="profile-repo/assets/divider.svg" width="100%"/>
 <br/>
 
 ## 🛡️ About Me
@@ -61,7 +61,7 @@ from a tool list.
 
 </details>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="profile-repo/assets/divider.svg" width="100%"/>
 
 ## ⚡ Core Focus
 
@@ -80,7 +80,7 @@ from a tool list.
 </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="profile-repo/assets/divider.svg" width="100%"/>
 
 ## 🧰 Security Stack
 
@@ -135,12 +135,12 @@ from a tool list.
 </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="profile-repo/assets/divider.svg" width="100%"/>
 
 ## 🏗️ Enterprise Lab Architecture
 
 <div align="center">
-<img src="assets/architecture.svg" alt="Enterprise security lab architecture diagram" width="100%"/>
+<img src="profile-repo/assets/architecture.svg" alt="Enterprise security lab architecture diagram" width="100%"/>
 </div>
 
 <table align="center">
@@ -168,7 +168,7 @@ from a tool list.
 </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="profile-repo/assets/divider.svg" width="100%"/>
 
 ## 🚀 Projects
 
@@ -220,7 +220,7 @@ from a tool list.
 </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="profile-repo/assets/divider.svg" width="100%"/>
 
 ## 🏆 Certifications
 
@@ -236,7 +236,7 @@ from a tool list.
 
 </div>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="profile-repo/assets/divider.svg" width="100%"/>
 
 ## 🎯 2026 Roadmap
 
@@ -270,7 +270,7 @@ from a tool list.
 </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="profile-repo/assets/divider.svg" width="100%"/>
 
 ## 📊 GitHub Analytics
 
@@ -309,7 +309,7 @@ from a tool list.
 
 </div>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="profile-repo/assets/divider.svg" width="100%"/>
 
 ## 🕓 Recent Activity
 
@@ -319,7 +319,7 @@ from a tool list.
      it will be overwritten on the next scheduled update. -->
 <!--END_SECTION:activity-->
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="profile-repo/assets/divider.svg" width="100%"/>
 
 ## 🏅 GitHub Trophies
 
@@ -327,7 +327,7 @@ from a tool list.
 <img src="https://github-profile-trophy.vercel.app/?username=abdelhakimgaferNetworkSec&theme=tokyonight&no-frame=true&column=4&margin-w=15&margin-h=15" alt="GitHub trophies"/>
 </div>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="profile-repo/assets/divider.svg" width="100%"/>
 
 ## 🐍 Contribution Snake
 
@@ -335,7 +335,7 @@ from a tool list.
 <img src="https://raw.githubusercontent.com/abdelhakimgaferNetworkSec/abdelhakimgaferNetworkSec/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation"/>
 </div>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="profile-repo/assets/divider.svg" width="100%"/>
 
 ## 🌐 More
 
@@ -350,7 +350,7 @@ from a tool list.
 
 <p align="center"><sub>GitHub Skyline generates a downloadable 3D model of your contribution graph at skyline.github.com — not an embeddable badge, so it's linked rather than inlined. The WakaTime badge is a placeholder: connect a WakaTime account and add a dedicated workflow to make it live (see <code>SETUP.md</code>).</sub></p>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="profile-repo/assets/divider.svg" width="100%"/>
 
 ## 💬 Random Dev Quote
 
@@ -358,7 +358,7 @@ from a tool list.
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random developer quote"/>
 </div>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="profile-repo/assets/divider.svg" width="100%"/>
 
 ## 📫 Connect
 
