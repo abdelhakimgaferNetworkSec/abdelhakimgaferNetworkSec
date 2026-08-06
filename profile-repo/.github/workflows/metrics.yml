@@ -1,0 +1,42 @@
+name: Metrics Dashboard
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate metrics.svg
+        uses: lowlighter/metrics@latest
+        with:
+          # Classic PAT, scope "read:user" minimum (add "repo" for private
+          # activity). Cannot use the default GITHUB_TOKEN — see SETUP.md.
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.svg
+          template: classic
+          base: "header, activity, community, metadata"
+          config_timezone: Africa/Cairo
+
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_limit: 8
+
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+
+          plugin_introduction: yes
+          plugin_introduction_title: yes

@@ -1,0 +1,13 @@
+<svg width="1100" height="8" viewBox="0 0 1100 8" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dividerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f2027" stop-opacity="0"/>
+      <stop offset="12%" stop-color="#00FF99" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#22E7FF" stop-opacity="1"/>
+      <stop offset="88%" stop-color="#00FF99" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1f3a4d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect y="3" width="1100" height="2" rx="1" fill="url(#dividerGradient)"/>
+  <circle cx="550" cy="4" r="3.5" fill="#22E7FF"/>
+</svg>

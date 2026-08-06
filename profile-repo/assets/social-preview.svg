@@ -1,0 +1,37 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090c10"/>
+      <stop offset="45%" stop-color="#0f2027"/>
+      <stop offset="100%" stop-color="#1f3a4d"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF99"/>
+      <stop offset="55%" stop-color="#22E7FF"/>
+      <stop offset="100%" stop-color="#00FF99"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#173142" stroke-width="1" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+
+  <circle cx="1120" cy="120" r="180" fill="#00FF99" opacity="0.07"/>
+  <circle cx="120" cy="520" r="220" fill="#22E7FF" opacity="0.06"/>
+
+  <text x="640" y="300" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="58" font-weight="700" fill="url(#glow)">
+    ABDEL HAKIM GAFER
+  </text>
+
+  <text x="640" y="352" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="22" fill="#B8FFE0" letter-spacing="2">
+    NETWORK SECURITY ENGINEER · DETECTION ENGINEER
+  </text>
+
+  <line x1="380" y1="390" x2="900" y2="390" stroke="url(#glow)" stroke-width="2" opacity="0.7"/>
+
+  <text x="640" y="430" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#6fe3c2" letter-spacing="2">
+    FORTIGATE · WAZUH · SPLUNK · MICROSOFT SENTINEL · ACTIVE DIRECTORY · PKI
+  </text>
+</svg>

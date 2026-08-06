@@ -1,0 +1,27 @@
+name: Core Stats (Terminal Card)
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+jobs:
+  terminal-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate stats.svg
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: stats.svg
+          # Terminal template — deliberately different visual style
+          # (monospace "SOC console" look) from the dashboard cards above.
+          template: terminal
+          base: "header, activity, community"
+          config_timezone: Africa/Cairo
+          config_display: large

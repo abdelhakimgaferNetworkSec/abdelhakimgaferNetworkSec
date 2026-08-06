@@ -1,0 +1,66 @@
+<svg width="1100" height="620" viewBox="0 0 1100 620" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, 'Courier New', monospace">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090c10"/>
+      <stop offset="100%" stop-color="#131f28"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF99"/>
+      <stop offset="100%" stop-color="#22E7FF"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#22E7FF"/>
+    </marker>
+  </defs>
+
+  <rect width="1100" height="620" fill="url(#archBg)" rx="10"/>
+
+  <text x="550" y="42" text-anchor="middle" fill="url(#accent)" font-size="22" font-weight="700" letter-spacing="1.5">
+    ENTERPRISE SECURITY LAB — LOGICAL ARCHITECTURE
+  </text>
+
+  <!-- Perimeter layer -->
+  <rect x="60" y="72" width="980" height="80" rx="8" fill="none" stroke="#00FF99" stroke-width="1.4" opacity="0.85"/>
+  <text x="80" y="96" fill="#6fe3c2" font-size="13" letter-spacing="1">PERIMETER / NETWORK SECURITY</text>
+  <text x="80" y="122" fill="#c9d1d9" font-size="13">FortiGate NGFW  ·  Site-to-Site VPN  ·  SSL VPN  ·  FortiManager  ·  FortiAnalyzer</text>
+  <text x="80" y="142" fill="#7a8a94" font-size="11">Segmented zones · policy-based routing · centralized log export to SIEM</text>
+
+  <line x1="550" y1="152" x2="550" y2="182" stroke="#22E7FF" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Identity layer -->
+  <rect x="60" y="184" width="470" height="110" rx="8" fill="none" stroke="#00FF99" stroke-width="1.4" opacity="0.85"/>
+  <text x="80" y="208" fill="#6fe3c2" font-size="13" letter-spacing="1">IDENTITY &amp; TRUST</text>
+  <text x="80" y="234" fill="#c9d1d9" font-size="13">Active Directory Forest · Windows Server</text>
+  <text x="80" y="254" fill="#c9d1d9" font-size="13">Group Policy · Tiered Administration</text>
+  <text x="80" y="274" fill="#c9d1d9" font-size="13">Enterprise PKI (AD CS) · Auto-Enrollment</text>
+
+  <!-- Detection layer -->
+  <rect x="570" y="184" width="470" height="110" rx="8" fill="none" stroke="#00FF99" stroke-width="1.4" opacity="0.85"/>
+  <text x="590" y="208" fill="#6fe3c2" font-size="13" letter-spacing="1">TELEMETRY &amp; DETECTION</text>
+  <text x="590" y="234" fill="#c9d1d9" font-size="13">Sysmon · Windows Event Forwarding</text>
+  <text x="590" y="254" fill="#c9d1d9" font-size="13">Wazuh · Splunk Enterprise · Elastic Stack</text>
+  <text x="590" y="274" fill="#c9d1d9" font-size="13">Microsoft Sentinel · Sigma Rules</text>
+
+  <line x1="295" y1="294" x2="295" y2="324" stroke="#22E7FF" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="805" y1="294" x2="805" y2="324" stroke="#22E7FF" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="295" y1="324" x2="805" y2="324" stroke="#22E7FF" stroke-width="1.2" opacity="0.6"/>
+  <line x1="550" y1="324" x2="550" y2="354" stroke="#22E7FF" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Correlation / SIEM engineering layer -->
+  <rect x="60" y="356" width="980" height="90" rx="8" fill="none" stroke="#00FF99" stroke-width="1.4" opacity="0.85"/>
+  <text x="80" y="380" fill="#6fe3c2" font-size="13" letter-spacing="1">CORRELATION &amp; DETECTION ENGINEERING</text>
+  <text x="80" y="406" fill="#c9d1d9" font-size="13">Custom decoders &amp; correlation rules  ·  MITRE ATT&amp;CK coverage mapping  ·  False-positive tuning</text>
+  <text x="80" y="428" fill="#7a8a94" font-size="11">Alert pipeline: raw event → normalized log → rule match → enriched alert → analyst queue</text>
+
+  <line x1="550" y1="446" x2="550" y2="476" stroke="#22E7FF" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Response layer -->
+  <rect x="60" y="478" width="980" height="90" rx="8" fill="none" stroke="#00FF99" stroke-width="1.4" opacity="0.85"/>
+  <text x="80" y="502" fill="#6fe3c2" font-size="13" letter-spacing="1">AUTOMATED RESPONSE &amp; SOC OPERATIONS</text>
+  <text x="80" y="528" fill="#c9d1d9" font-size="13">Active Response (auto IP block, process kill)  ·  Brute-force mitigation  ·  IR playbook execution</text>
+  <text x="80" y="548" fill="#7a8a94" font-size="11">Closed loop: detection → automated containment → analyst validation → post-incident review</text>
+
+  <text x="550" y="596" text-anchor="middle" fill="#4f8f80" font-size="12" letter-spacing="1.5">
+    DESIGNED TO MIRROR PRODUCTION ENTERPRISE ENVIRONMENTS AT LAB SCALE
+  </text>
+</svg>

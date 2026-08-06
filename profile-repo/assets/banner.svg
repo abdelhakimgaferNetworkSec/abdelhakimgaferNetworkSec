@@ -1,0 +1,53 @@
+<svg width="1100" height="260" viewBox="0 0 1100 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090c10"/>
+      <stop offset="45%" stop-color="#0f2027"/>
+      <stop offset="100%" stop-color="#1f3a4d"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF99"/>
+      <stop offset="55%" stop-color="#22E7FF"/>
+      <stop offset="100%" stop-color="#00FF99"/>
+    </linearGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#173142" stroke-width="1" opacity="0.55"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="260" fill="url(#bg)"/>
+  <rect width="1100" height="260" fill="url(#grid)"/>
+
+  <circle cx="990" cy="55" r="100" fill="#00FF99" opacity="0.07"/>
+  <circle cx="70" cy="220" r="130" fill="#22E7FF" opacity="0.06"/>
+
+  <!-- scan line accent -->
+  <rect x="0" y="0" width="1100" height="2" fill="url(#glow)" opacity="0.6"/>
+  <rect x="0" y="258" width="1100" height="2" fill="url(#glow)" opacity="0.6"/>
+
+  <text x="550" y="118" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="48" font-weight="700" fill="url(#glow)" filter="url(#softGlow)">
+    ABDEL HAKIM GAFER
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="550" y="158" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#B8FFE0" letter-spacing="2">
+    NETWORK SECURITY ENGINEER · DETECTION ENGINEER · SOC ANALYST
+  </text>
+
+  <line x1="270" y1="184" x2="830" y2="184" stroke="url(#glow)" stroke-width="1.5" opacity="0.7"/>
+
+  <text x="550" y="210" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#6fe3c2" letter-spacing="2.5">
+    FORTIGATE · WAZUH · SPLUNK · MICROSOFT SENTINEL · ACTIVE DIRECTORY · AD CS PKI
+  </text>
+
+  <text x="550" y="235" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#4f8f80" letter-spacing="2">
+    MITRE ATT&amp;CK-MAPPED DETECTION · INCIDENT RESPONSE AUTOMATION
+  </text>
+</svg>
